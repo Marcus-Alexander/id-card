@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald" rel="stylesheet">
+        <meta charset="utf-8">
+        <title>ID Card Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <style>
+
+        </style>
+
+        <h1 id="font">"Let's Create an ID Card"</h1>
+        <form>
+
+            <input type="text" id="firstName" placeholder="First Name">
+            <br>
+
+            <input type="text" id="lastName" placeholder="Last Name">
+            <br>
+
+            <input type="number" id="age" placeholder="Age">
+            <br>
+
+            <input type="text" id="phoneNumber" placeholder="Phone Number">
+            <br>
+
+            <input type="text" id="postAddress" placeholder="Address">
+            <br>
+        </form>
+
+
+        <button onclick="idCardFunction()">
+            Click me!
+        </button>
+
+
+        <div id="idCard">
+
+            <img  src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+
+            <h3>Valley Technical Academy</h3>
+
+
+            <div class="text">
+                <div class="line">
+                    <p id="userFirstName"></p>
+                    <p id="userLastName"></p>
+                </div>
+                <p id="userAge"></p>
+                <p id="userPhoneNumber"></p>
+                <p id="userAddress"></p>
+
+            </div>
+
+
+
+        </div>
+
+        <script src="app.js" ></script>
+    </body>
+</html>
