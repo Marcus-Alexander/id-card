@@ -1,15 +1,15 @@
-// [array]
-// var numbers = [1, 2, 3];
-// numbers.length;
-//
-// numbers.sort();
-//
-// numbers.push(24);
-//
-// numbers.pop();
-// console.log(numbers);
-// numbers.sort();
-// console.log(numbers);
+[array]
+var numbers = [1, 2, 3];
+numbers.length;
+
+numbers.sort();
+
+numbers.push(24);
+
+numbers.pop();
+console.log(numbers);
+numbers.sort();
+console.log(numbers);
 //
 // // OBJECTS
 //
